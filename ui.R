@@ -36,7 +36,7 @@ shinyUI(
         menuItem("Readme", tabName = "Readme", icon = icon("readme"))
       )),
     
-    dashboardBody(includeCSS("css/movies.css"),
+    dashboardBody(includeCSS("movies.css"),
                   tabItems(
                     tabItem(tabName = "RecommendationbyGenre",
                             fluidRow(
