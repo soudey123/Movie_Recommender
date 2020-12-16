@@ -9,7 +9,7 @@ library(shinyjs)
 library(lobstr)
 mem_used()
 
-source('functions/helpers.R')
+source('helpers.R')
 
 # read in data
 myurl = "https://liangfgithub.github.io/MovieData/"
