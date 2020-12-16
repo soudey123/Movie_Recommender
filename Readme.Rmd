@@ -12,21 +12,21 @@ The movie recommender webapp divided into two different interfaces:
 
 1) The first tab exhibits an example of movie recommendation based on user's favorite genre. This is a default tab appears on the screen as soon as user access the web app URL. User needs to select favorite genre from the dropdown menu displayed on the first section of the screen and click yellow colored button to populate top 5 recommended movies of that specific genre.
 
-![](Images/genre2.png)
+![](genre2.png)
 
 2) This system wouldn't be able to recommend top 5 movies for a few less popular genres such as "Action|Comedy|Drama" because there are less than 5 movies pertains to those specific genres are available in the database. There will be a pop-up box appears on the screen to deliver a short message about this data limitation as shown below:
 
-![](Images/genre1.png)
+![](genre1.png)
 
 3) The second tab showcases system's adaptability to user ratings approach as it utilizes User Based Colloborative Filtering algorithm to render recommendation on user ratings. In the tab user will be asked to provide ratings on a scale of 1 to 5 to some pre-loaded movies on the screen. It is recommended that user should provide ratings to as many movies as possible in order to receive more accurate movie recommendation from the system. Once user clicks the yellow button the app renders top 10 recommended movies that user might like based on provided ratings.
 
 * User ratings section:
 
-![](Images/rating1.png)
+![](rating1.png)
 
 * Movie recommendation section:
 
-![](Images/rating2.png)
+![](rating2.png)
 
 # Acknowledgements:
 
